@@ -31,7 +31,7 @@ class AlienInvasion:
     def run_game(self):
         while True:
             self._check_events()
-            # self.ship.update()
+            self.ship.update()
             #self._update_bullets()
             self._update_screen()
             self.clock.tick(60)
